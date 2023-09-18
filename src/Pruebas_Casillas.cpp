@@ -22,8 +22,8 @@ void pruebaCasilla(){
 	if( obtenerSiOcupada(c) != false){
 		cout<<"Error al obtener ocupadas"<<endl;
 		cout<<"Error al iniciar casilla"<<endl;
-
 	}
+
 	ponerValor(c, 3);
 	if (obtenerSiOcupada(c) !=true and obtenerValor(c) !=3){
 		cout<<"Error al poner valor"<<endl;
@@ -38,6 +38,18 @@ void pruebaCasilla(){
 	vaciar(c);
 	if( obtenerSiOcupada(c) != false){
 		cout<<"Error al vaciar casilla"<<endl;
+	}
+	iniciar(c);
+	ponerValor(c, -30);
+	if (obtenerSiOcupada(c) !=false){
+		cout<<"Error al poner valor"<<endl;
+	}
+	if(obtenerValor(c) != 0){
+		cout<<"Error al obtener valor"<<endl;
+
+	}
+	if( obtenerSiOcupada(c) != false){
+		cout<<"Error al obtener ocupadas"<<endl;
 	}
 
 

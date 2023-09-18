@@ -15,16 +15,18 @@
 void iniciar(Casilla &c){
 
 	c.ocupada = false;
+	c.valor=0;
+	c.resaltada = false;
 
 }
 
 
 void ponerValor(Casilla &c, int n){
-
-	c.valor = n;
-	c.ocupada = true;
-	c.resaltada = false;
-
+	if(n>=0){
+		c.valor = n;
+		c.ocupada = true;
+		c.resaltada = false;
+	}
 }
 
 
