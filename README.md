@@ -8,7 +8,7 @@ IDE: Eclipse 2021
 Juego que supera pruebas básicas preparado para probarlo
 
 
-Dependencias
+Dependencias:
 sudo apt install liballegro5-dev
 
 
